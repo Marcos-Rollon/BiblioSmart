@@ -1,7 +1,6 @@
 const mongoose = require('mongoose')
 // command on mac : brew services start mongodb-community
-// Conection to the free MongoDB atlas online.
-//const uri = "mongodb+srv://root:bibliosmart@umabibliosmart-c3u83.mongodb.net/test?retryWrites=true&w=majority";
+
 const uri = "mongodb://127.0.0.1"
 
 async function startDatabase(){
