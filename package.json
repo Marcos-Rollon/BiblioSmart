@@ -1,0 +1,23 @@
+{
+  "name": "BiblioSmartAPI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Marcos Rollón Rivas",
+  "license": "Todos los derechos reservados. All rights Reserved",
+  "dependencies": {
+    "hapi": "^18.1.0",
+    "install": "^0.13.0",
+    "joi": "^14.3.1",
+    "mongoose": "^5.8.11",
+    "npm": "^6.13.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
